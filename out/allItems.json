@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Onions",
+    "price": 20,
+    "description": "fresh onions harvested from an nearby organic farm",
+    "item_qty": 250,
+    "item_unit": "g",
+    "veg": true,
+    "category": {
+      "cat_id": 1,
+      "cat_name": "fruits",
+      "cat_slug": "fruits"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Tomatoes",
+    "price": 35,
+    "description": "fresh tomatoes harvested from an nearby organic farm",
+    "item_qty": 500,
+    "item_unit": "g",
+    "veg": false,
+    "category": {
+      "cat_id": 1,
+      "cat_name": "fruits",
+      "cat_slug": "fruits"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Chilli",
+    "price": 15,
+    "description": "fresh chillies harvested from an nearby organic farm",
+    "item_qty": 250,
+    "item_unit": "g",
+    "veg": false,
+    "category": {
+      "cat_id": 1,
+      "cat_name": "fruits",
+      "cat_slug": "fruits"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Mango",
+    "price": 120,
+    "description": "fresh mangoes harvested from an nearby organic farm",
+    "item_qty": 1000,
+    "item_unit": "g",
+    "veg": false,
+    "category": {
+      "cat_id": 1,
+      "cat_name": "fruits",
+      "cat_slug": "fruits"
+    }
+  }
+]
