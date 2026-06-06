@@ -1,0 +1,63 @@
+[
+  {
+    "id": "f96d95f8-fec8-4f91-b083-710208a45bd8",
+    "user_id": "3ea83885-898e-4aee-89b7-37ef22f11160",
+    "status": "confirmed",
+    "total_price": 1375,
+    "created": "2026-06-06T00:34:11.980Z",
+    "shipped": null,
+    "delivered": null,
+    "cancelled": null,
+    "returned": null,
+    "order_items": [
+      {
+        "id": 6,
+        "order_id": "f96d95f8-fec8-4f91-b083-710208a45bd8",
+        "item_id": 2,
+        "count": 5,
+        "item": {
+          "id": 2,
+          "name": "Tomatoes",
+          "price": 35,
+          "description": "fresh tomatoes harvested from an nearby organic farm",
+          "item_qty": 500,
+          "item_unit": "g",
+          "veg": true,
+          "category_id": 3
+        }
+      },
+      {
+        "id": 5,
+        "order_id": "f96d95f8-fec8-4f91-b083-710208a45bd8",
+        "item_id": 11,
+        "count": 2,
+        "item": {
+          "id": 11,
+          "name": "Mozarella",
+          "price": 125,
+          "description": "Mozarella Cheese made from our own organic factory in nearby village",
+          "item_qty": 250,
+          "item_unit": "g",
+          "veg": false,
+          "category_id": 4
+        }
+      },
+      {
+        "id": 7,
+        "order_id": "f96d95f8-fec8-4f91-b083-710208a45bd8",
+        "item_id": 12,
+        "count": 1,
+        "item": {
+          "id": 12,
+          "name": "Premium Basmati",
+          "price": 950,
+          "description": "Grown and Harvested from Punjab",
+          "item_qty": 10,
+          "item_unit": "kg",
+          "veg": true,
+          "category_id": 6
+        }
+      }
+    ]
+  }
+]

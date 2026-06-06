@@ -1,0 +1,14 @@
+{
+  "id": 1,
+  "name": "Onions",
+  "price": 20,
+  "description": "fresh onions harvested from an nearby organic farm",
+  "item_qty": 250,
+  "item_unit": "g",
+  "veg": true,
+  "category": {
+    "cat_id": 1,
+    "cat_name": "fruits",
+    "cat_slug": "fruits"
+  }
+}

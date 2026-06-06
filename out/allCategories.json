@@ -8,5 +8,20 @@
     "id": 3,
     "name": "vegetables",
     "slug": "vegetables"
+  },
+  {
+    "id": 4,
+    "name": "milk and diary",
+    "slug": "milk_and_diary"
+  },
+  {
+    "id": 5,
+    "name": "eggs",
+    "slug": "eggs"
+  },
+  {
+    "id": 6,
+    "name": "rice",
+    "slug": "rice"
   }
 ]

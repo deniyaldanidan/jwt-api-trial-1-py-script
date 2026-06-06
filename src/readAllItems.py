@@ -1,23 +1,17 @@
 import requests
-import json
 from myurls import MY_URLS
+from writeResponseIntoJsonFile import handleResponse
 
 OUT_FILENAME = "out/allItems.json"
-ALL_ITEMS_URL = MY_URLS['allItems']
 
-def handleResponse(res):
-    with open(OUT_FILENAME, "w") as out:
-        out.write(json.dumps(res["data"], indent=2))
-        
-    print(f"Output for {ALL_ITEMS_URL} written in {OUT_FILENAME}")
 
-def main():
-    req = requests.get(ALL_ITEMS_URL)
+def readAllItems():
+    req = requests.get(MY_URLS.allItems)
     isSuccess = req.ok
     if (isSuccess):
-        handleResponse(req.json())
+        handleResponse(data=req.json()["data"], filename=OUT_FILENAME, req_url=MY_URLS.allItems)
         
         
 if __name__ == "__main__":
-    main()
+    readAllItems()
 

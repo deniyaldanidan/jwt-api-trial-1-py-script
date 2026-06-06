@@ -8,9 +8,9 @@
     "item_unit": "g",
     "veg": true,
     "category": {
-      "cat_id": 1,
-      "cat_name": "fruits",
-      "cat_slug": "fruits"
+      "cat_id": 3,
+      "cat_name": "vegetables",
+      "cat_slug": "vegetables"
     }
   },
   {
@@ -20,11 +20,11 @@
     "description": "fresh tomatoes harvested from an nearby organic farm",
     "item_qty": 500,
     "item_unit": "g",
-    "veg": false,
+    "veg": true,
     "category": {
-      "cat_id": 1,
-      "cat_name": "fruits",
-      "cat_slug": "fruits"
+      "cat_id": 3,
+      "cat_name": "vegetables",
+      "cat_slug": "vegetables"
     }
   },
   {
@@ -34,11 +34,11 @@
     "description": "fresh chillies harvested from an nearby organic farm",
     "item_qty": 250,
     "item_unit": "g",
-    "veg": false,
+    "veg": true,
     "category": {
-      "cat_id": 1,
-      "cat_name": "fruits",
-      "cat_slug": "fruits"
+      "cat_id": 3,
+      "cat_name": "vegetables",
+      "cat_slug": "vegetables"
     }
   },
   {
@@ -53,6 +53,34 @@
       "cat_id": 1,
       "cat_name": "fruits",
       "cat_slug": "fruits"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Mozarella",
+    "price": 125,
+    "description": "Mozarella Cheese made from our own organic factory in nearby village",
+    "item_qty": 250,
+    "item_unit": "g",
+    "veg": false,
+    "category": {
+      "cat_id": 4,
+      "cat_name": "milk and diary",
+      "cat_slug": "milk_and_diary"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Premium Basmati",
+    "price": 950,
+    "description": "Grown and Harvested from Punjab",
+    "item_qty": 10,
+    "item_unit": "kg",
+    "veg": true,
+    "category": {
+      "cat_id": 6,
+      "cat_name": "rice",
+      "cat_slug": "rice"
     }
   }
 ]

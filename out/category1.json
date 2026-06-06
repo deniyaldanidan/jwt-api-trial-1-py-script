@@ -1,0 +1,29 @@
+{
+  "category": {
+    "id": 1,
+    "name": "fruits",
+    "slug": "fruits"
+  },
+  "items": [
+    {
+      "id": 1,
+      "name": "Onions",
+      "price": 20,
+      "description": "fresh onions harvested from an nearby organic farm",
+      "item_qty": 250,
+      "item_unit": "g",
+      "veg": true,
+      "category_id": 1
+    },
+    {
+      "id": 4,
+      "name": "Mango",
+      "price": 120,
+      "description": "fresh mangoes harvested from an nearby organic farm",
+      "item_qty": 1000,
+      "item_unit": "g",
+      "veg": false,
+      "category_id": 1
+    }
+  ]
+}
